@@ -1,0 +1,66 @@
+---
+layout: base
+title: Home
+---
+
+<header class="page-header page-header--home">
+    <div class="header-text">
+        <h1>Hi! I'm James Little.</h1>
+        <p class="big-description">I'm a full-stack developer from Boston with a focus on user experience and interface design.</p>
+        <p class="links"><a href="https://github.com/littleguy230">Github</a> &bullet; <a href="https://www.linkedin.com/in/james-little-230">LinkedIn</a> &bullet; <a href="https://twitter.com/littleguy230">Twitter</a> &bullet; <a href="https://www.instagram.com/littleguy230/">Instagram</a> &bullet; <a href="/hiring/resume-main.pdf">Résumé</a></p>
+    </div>
+
+    <div class="image-of-me">
+        <img src="/img/me.png" alt="">
+    </div>
+</header>
+
+<div class="home-section">
+    <header class="home-section__header"><h1>Latest Stuff</h1></header>
+
+    <div class="home-section__row">
+        <div class="home-section__column home-section__column--posts">
+			<div class="home-post-list">
+            {% for post in site.posts %}
+                <a class="home-article-preview" href="{{post.url}}">
+                    {% if post.img %}<figure class="article-img"><img src="/img/{{ post.img }}" alt="Image for {{ post.title}}"></figure>{% endif %}
+                    {% if post.title %}<h1 class="article-title">{{post.title}}</h1>{% endif %}
+                    {% if post.line %}<p class="article-line">{{post.line}}</p>{% endif %}
+                    <p class="article-meta">{{post.date | date: "%B %d, %Y"}}</p>
+                </a>
+
+                {% if forloop.index == 4 %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+			</div>
+
+            <a class="more-link" href="/blog">{{site.posts.size}} posts since June 2017</a>
+        </div>
+
+        <div class="home-section__column home-section__column--portfolio">
+            <a class="portfolio-object portfolio-object--orient" href="/portfolio/logger-app.php">
+                <h1 class="portfolio-object__header">Bowdoin Orient Online</h1>
+                <p class="portfolio-object__description">A full WordPress reimplementation of bowdoinorient.com, complete with a bespoke theme that followed the conventions set forth by our new print redesign.</p>
+            </a>
+
+            <div class="portfolio-row">
+                <a class="portfolio-object portfolio-object--half portfolio-object--crossed" href="/portfolio/logger-app.php">
+                    <h1 class="portfolio-object__header">Crossed</h1>
+                    <p class="portfolio-object__description">A web application to help you create and publish professional crossword puzzles.<br>
+                    <strong>Tools:</strong> VueJS, Kitura</p>
+                </a>
+
+                <a class="portfolio-object portfolio-object--half portfolio-object--logger-app" href="/portfolio/logger-app.php">
+                    <h1 class="portfolio-object__header">Logger App</h1>
+                    <p class="portfolio-object__description">An iOS app for Bowdoin's robotic soccer team that streams and saves video from Aldebaran Nao robots.<br>
+                    <strong>Tools:</strong> Swift 3, Interface Builder, various iOS APIs</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="home-section">-->
+    <!--<header class="home-section__header"><h1>More Projects</h1></header>-->
+<!--</div>-->
