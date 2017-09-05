@@ -12,13 +12,15 @@ At Bowdoin, I'm the digital director of the [Bowdoin Orient](http://bowdoinorien
 
 I'm also the captain of the [Northern Bites](https://www.youtube.com/playlist?list=PLRY7aBBr3vauc4aQ1PkCt923_ayLOeStW), Bowdoin's RoboCup Soccer team. Our autonomous soccer-playing robots came in ninth place in the RoboCup SPL World Cup in Leipzig, Germany in 2016.
 
-I'm currently living in San Francisco, interning with [Okta](http://okta.com) on their mobile development team.
+<!-- I'm currently living in San Francisco, interning with [Okta](http://okta.com) on their mobile development team. -->
+
+In the summer of 2017, I worked with [Okta](http://okta.com) as a software engineering intern on their mobile development team. I added Touch ID sign-on to [Okta Mobile for iOS](https://itunes.apple.com/us/app/okta-mobile/id580709251) and carried out a major overhaul on the app's networking framework.
 
 ## Contact
 
 I'd love to get in touch. Shoot me an email at jameslittle230 (it's at gmail dot com). I'm also on various places on the internet:
 
-- [Twitter @littleguy230](http://twitter.com/littleguy230)
-- [Instagram @littleguy230](http://instagram.com/littleguy230)
-- [Github @littleguy230](http://github.com/littleguy230)
+- [Twitter @jameslittle230](http://twitter.com/jameslittle230)
+- [Instagram @jameslittle230](http://instagram.com/jameslittle230)
+- [Github @jameslittle230](http://github.com/jameslittle230)
 - [LinkedIn @james-little-230](http://linkedin.com/in/james-little-230)

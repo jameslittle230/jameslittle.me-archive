@@ -89,3 +89,6 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - The Talisman Cock - Henry Joseph Russell
 - John Dies at the End - David Wong
 - The Defining Decade - Meg Jay, Ph.D
+- Modern Romance - Aziz Ansari
+- My Grandmother Asked Me To Tell You She's Sorry - Fredrik Backman
+- All Stories Are Love Stories - Elizabeth Percer
