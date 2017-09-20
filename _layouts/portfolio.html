@@ -4,17 +4,23 @@ layout: base
 
 <header class="portfolio-header">
 	<h1>{{ page.title }}</h1>
-	<h2 class="portfolio-blurb">{{ page.blurb }}</h2>
 	<h3 class="portfolio-link"><a href="{{ page.link }}">{{ page.link }}</a></h3>
+	<h2 class="portfolio-blurb">{{ page.blurb }}</h2>
 	<h3 class="portfolio-stats">
-		<span class="stat">{{ page.when }}</span>
+		When: <span class="stat">{{ page.when }}</span>
 		Platform: <span class="stat">{{ page.platform }}</span>
 		My work: <span class="stat">{{ page.work }}</span>
 	</h3>
 </header>
 
+<div class="portfolio-content">
+
 <div class="content-wrap">
 
 {{ content }}
+
+</div>
+
+<a class="portfolio-back-link" href="/portfolio/">&larr; Back to Portfolio</a>
 
 </div>

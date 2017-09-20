@@ -1,0 +1,24 @@
+---
+layout: page
+title: My Work
+subtitle: "Technical and Design projects I've been part of"
+permalink: /portfolio/
+---
+
+{% assign items = site.portfolio | sort: 'order' %}
+{% for post in items %}
+
+<a class="home-article-preview" href="{{post.url}}">
+    {% if post.title %}<h1 class="article-title">{{post.title}}</h1>{% endif %}
+    <p class="article-line">{{post.blurb}}</p>
+    <p class="article-meta">{{post.when}}</p>
+</a>
+
+{% endfor %}
+
+<h1>Work in Progress</h1>
+
+<ul>
+	<li><strong>Swoop: </strong>A blog engine built with Kitura, a server-side web framework written in Swift.</li>
+	<li><strong>Crossed: </strong>A web app to help build professional-grade crossword puzzles.</li>
+</ul>
