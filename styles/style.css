@@ -25,6 +25,10 @@ img {
 	height: auto;
 }
 
+a:link {
+	color: #295bad;
+}
+
 figure {
 	margin: 0;
 }
@@ -59,7 +63,7 @@ figure {
 
 	font-size: 1.8rem;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0px 20px 12px rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid #222;
 
 	overflow: hidden;
 }
