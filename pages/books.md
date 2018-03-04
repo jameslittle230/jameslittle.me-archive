@@ -92,3 +92,10 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Modern Romance - Aziz Ansari
 - My Grandmother Asked Me To Tell You She's Sorry - Fredrik Backman
 - All Stories Are Love Stories - Elizabeth Percer
+
+# 2018
+
+- Artemis - Andy Weir
+- The Handmaid's Tale - Margaret Atwood
+- Little Fires Everywhere - Celeste Ng
+- The Shallows: What the Internet is Doing to Our Brains - Nicholas Carr
