@@ -26,7 +26,6 @@
 
 # Build settings
 markdown: kramdown
-gems:
 exclude:
   - Gemfile
   - Gemfile.lock

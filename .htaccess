@@ -1,1 +1,6 @@
-Options -Indexes
+ErrorDocument 404 /404
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.jameslittle.me [NC]
+RewriteRule ^(.*)$ http://jameslittle.me/$1 [L,R=301]
+
