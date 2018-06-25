@@ -99,3 +99,6 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - The Handmaid's Tale - Margaret Atwood
 - Little Fires Everywhere - Celeste Ng
 - The Shallows: What the Internet is Doing to Our Brains - Nicholas Carr
+- Beneath a Scarlet Sky - Mark Sullivan
+- Never Let Me Go - Kazuo Isiguro
+- The Door - Madga Szabo
