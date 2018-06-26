@@ -380,9 +380,10 @@ pre {
 /**
  * Specific portfolio boxes -- image backgrounds
  */
-.portfolio-object--logger-app {background-image: url("/img/home/logger/logger-app-square.png");}
+.portfolio-object--logger-app {background-image: url("/img/home/logger/logger-square.png");}
+.portfolio-object--penguinegg {background-image: url("/img/home/penguinegg/penguinegg-square.png");}
 .portfolio-object--crossed {background-image: url("/img/home/crossed/crossed-square.png");}
-.portfolio-object--orient {background-image: url("/img/home/orient/orient-online-square.png");}
+.portfolio-object--orient {background-image: url("/img/home/orient/orient-square.png");}
 .portfolio-object--okta {background-image: url("/img/home/okta/okta-login-square.png");}
 
 /**
