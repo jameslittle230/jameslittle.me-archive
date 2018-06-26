@@ -6,7 +6,7 @@ platform: "Web"
 work: "Design and implementation"
 link: "http://bowdoinorient.com/housing"
 when: "Spring 2017"
-order: 3
+order: 2
 ---
 
 The Bowdoin College lottery for on-campus housing is complex. The different housing options blend together, and deciding where you might want to live is challenging due to the different requirements of each option. This web app, published for the Bowdoin Orient, allows readers to input some information. It then transforms an interactive campus map into a color-coded visualization of which housing options are available to you, and which options you're most likely to get into.

@@ -5,7 +5,7 @@ subtitle: "Technical and Design projects I've been part of"
 permalink: /portfolio/
 ---
 
-{% assign items = site.portfolio | sort: 'order' %}
+{% assign items = site.portfolio | sort: 'order' | reverse %}
 {% for post in items %}
 
 <a class="home-article-preview" href="{{post.url}}">

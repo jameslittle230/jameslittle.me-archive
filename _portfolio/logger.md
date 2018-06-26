@@ -6,7 +6,7 @@ platform: "iOS"
 work: "Design and implementation"
 link: ""
 when: "2016"
-order: 2
+order: 3
 ---
 
 <video src="/img/portfolio/logger/demo.mov" autoplay poster="2.png" class="portfolio-image-right"></video>
