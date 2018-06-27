@@ -6,11 +6,15 @@ permalink: /blog/
 
 
 {% for post in site.posts %}
-	<a class="article-listing" href="{{post.url}}">
+	<div class="article-listing">
 		{% if post.img %}<figure class="article-img"><img src="/img/{{ post.img }}" alt="Image for {{ post.title}}"></figure>{% endif %}
-		{% if post.title %}<h1 class="article-title">{{post.title}}</h1>{% endif %}
+		{% if post.title %}<a href="{{post.url}}"><h1 class="article-title">{{post.title}}</h1></a>{% endif %}
 		{% if post.line %}<p class="article-line">{{post.line}}</p>{% endif %}
 		<p class="article-meta">{{post.date | date: "%B %d, %Y"}}</p>
+		{% if post.summary %}
+		<p class="excerpt">{{post.summary}}</p>
+		{% else %}
 		<p class="excerpt">{{post.content | truncatewords: 50, '...' | strip_html}}</p>
-	</a>
+		{% endif %}
+	</div>
 {% endfor %}

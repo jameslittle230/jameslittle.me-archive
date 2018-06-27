@@ -8,11 +8,11 @@ permalink: /portfolio/
 {% assign items = site.portfolio | sort: 'order' | reverse %}
 {% for post in items %}
 
-<a class="home-article-preview" href="{{post.url}}">
-    {% if post.title %}<h1 class="article-title">{{post.title}}</h1>{% endif %}
+<div class="article-listing">
+    <a href="{{post.url}}"><h1 class="article-title">{{post.title}}</h1></a>
     <p class="article-line">{{post.blurb}}</p>
-    <p class="article-meta">{{post.when}}</p>
-</a>
+    <p class="article-meta">{{post.when}} {% if post.link != "" %}&bullet; <a href="{{post.link}}">{{post.link}}</a>{% endif %}</p>
+</div>
 
 {% endfor %}
 
