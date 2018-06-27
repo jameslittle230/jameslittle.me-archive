@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Bringing back RSS won't decentralize web publishing."
 date:   2018-04-24
 ---

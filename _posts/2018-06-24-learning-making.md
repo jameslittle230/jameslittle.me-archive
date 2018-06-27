@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Learning and Making"
 date:   2018-06-24
 ---

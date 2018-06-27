@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The most efficient Github SSH key generation process"
 date:   2018-03-20
 ---
