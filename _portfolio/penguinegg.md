@@ -9,12 +9,18 @@ when: "2018"
 order: 5
 ---
 
-The final project for my Applied Cryptography course at [AIT-Budapest](http://www.ait-budapest.com/). I used Socket.io to build a real-time chat application in which messages were encrypted and signed in the sender's browser, routed by an intermediate server, then verified and decrypted in the reciever's browser.
+_The final project for my Applied Cryptography course at [AIT-Budapest](http://www.ait-budapest.com/)._
+
+I used Socket.io to build a real-time multi-party chat application in which messages were encrypted and signed in the sender's browser, routed by an intermediary server, then verified and decrypted in the reciever's browser. The application uses modern security standards combined with a well-designed secure channel, ensuring that eavesdroppers can never determine message content in transit or at rest, and that malicious actors cannot alter, reroute, or replay messages.
 
 <img src="/img/portfolio/penguinegg/1.png" class="portfolio-image">
 
-In a drive towards modernization, standardization, and versatility, I led the paper through a visual redesign that permeated every aspect of the paper's visual design. We started with new fonts: Chronicle Display and Verlag, both by Hoefler & Co. We used these fonts to establish new standards for headlines and other visual elements, eventually using these fonts to drive the design for the entire paper.
+The application sports several security features. The server administrator never has access to messages that users send. Encryption and decryption keys are rotated on every login. The encryption schema is designed to be fast while simultaneously encoding metadata about the sender, reciever, and message, all of which is verifiable on the client's end.
 
-The first effort of our rebranding started with our website. In moving to WordPress, we were able to think about the categorization and presentation of articles and other journalistic efforts, and we designed the website around these new projects like interactive, long-form, and serial stories. The web redesign also let us invent new visual elements that would eventually become part of the Orient's brand.
+## [Read the paper describing the app's cryptographic features.](https://files.jameslittle.me/projects/penguinegg-paper.pdf)
 
-The website was launched in March 2017, and the corresponding print redesign was first published in September 2017. It represents a new step forward for the Orient, letting design and content work together across digital and physical spheres.
+<img src="/img/portfolio/penguinegg/2.png" class="portfolio-image-right">
+
+The system is battle tested: as part of the final demonstration, we had to carry out cryptographic attacks on the system, and show that they can be detected or blocked. Users can initiate either a replay attack (sending the same bitstream from to a recipient twice) or a spoofing attack (encoding the sender as a different user than the actual sender). In both cases, the frontend application will detect these attacks, block them from sending, and let the recipient know that the attacks are taking place.
+
+Account creation is publicly available. If you want to chat with someone real-time, [contact me](/about) and I'll head online.
