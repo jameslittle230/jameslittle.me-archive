@@ -10,14 +10,18 @@ html {
 }
 
 body {
-	font-family: "franklin-gothic";
+	font-family: "freight-sans-pro", sans-serif;
 	background: #EEE;
     min-height: 100vh;
-    color: #333;
+	color: #333;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: "freight-display-pro", serif;
+	font-weight: 800;
 	margin: 0;
+	line-height: 1;
 }
 
 img {
@@ -65,6 +69,17 @@ pre {
 	clear: both;
 }
 
+::selection {
+	background: #2e2e66; /* WebKit/Blink Browsers */
+	color: #EEE;
+	text-shadow: none;
+  }
+  ::-moz-selection {
+	background: #2e2e66; /* Gecko Browsers */
+	color: #EEE;
+	text-shadow: none;
+  }
+
 /**
  * Page Header
  */
@@ -85,13 +100,17 @@ pre {
 	overflow: hidden;
 }
 
+.page-header h1, .page-header h2 {
+	font-family: "freight-sans-pro";
+}
+
 .page-header h2 {
 	text-transform: uppercase;
-	line-height: 1;
 	font-size: 0.8em;
 	color: #AAA;
 	font-weight: normal;
 	letter-spacing: 0.1em;
+	margin-top: 0.3em;
 }
 
 /**
@@ -495,6 +514,12 @@ pre {
 	clear: both;
 }
 
+.footnotes {
+	margin-top: 4rem;
+	border-top: 1px solid #AAA;
+	font-size: 0.9em;
+}
+
 /**
  * Post Page
  */
@@ -531,7 +556,8 @@ pre {
 }
 
 .portfolio-header h1 {
-	font-size: 6em;
+	font-size: 5em;
+	font-weight: 900;
 	margin-bottom: 0.1em;
 	line-height: 1;
 	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
