@@ -102,3 +102,4 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Beneath a Scarlet Sky - Mark Sullivan
 - Never Let Me Go - Kazuo Isiguro
 - The Door - Madga Szabo
+- The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal - M. Mitchell Waldrop
