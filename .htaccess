@@ -4,3 +4,5 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.jameslittle.me [NC]
 RewriteRule ^(.*)$ http://jameslittle.me/$1 [L,R=301]
 
+# https://jekyllrb.com/docs/permalinks/#extensionless-permalinks
+Options +MultiViews
