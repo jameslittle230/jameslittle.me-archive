@@ -103,3 +103,5 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Never Let Me Go - Kazuo Isiguro
 - The Door - Madga Szabo
 - The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal - M. Mitchell Waldrop
+- The Shallows: What The Internet is Doing To Our Brains - Nicholas Carr
+- Regeneration - Pat Barker
