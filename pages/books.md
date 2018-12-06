@@ -105,3 +105,11 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal - M. Mitchell Waldrop
 - The Shallows: What The Internet is Doing To Our Brains - Nicholas Carr
 - Regeneration - Pat Barker
+- The Waste Land - T.S. Eliot
+- Towards a New Architecture - Le Corbusier
+- Dubliners - James Joyce
+- Mrs. Dalloway - Virginia Woolf
+- Distant Star - Roberto Bolaño
+- Disgrace - J.M. Coetzee
+- Juhaani Pallasmaa - The Eyes of the Skin
+
