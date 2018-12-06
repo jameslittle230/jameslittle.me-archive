@@ -17,7 +17,7 @@ I'm also the captain of the [Northern Bites](https://www.youtube.com/playlist?li
 
 In the summer of 2017, I worked with [Okta](https://okta.com) as a software engineering intern on their mobile development team. I added Touch ID sign-on to [Okta Mobile for iOS](https://itunes.apple.com/us/app/okta-mobile/id580709251) and carried out a major overhaul of the app's networking framework.
 
-I'm currently interning on the mobile team at [Stripe](https://stripe.com), making the [Stripe Dashboard](https://itunes.apple.com/us/app/stripe-dashboard/id978516833) iOS app better.
+In the summer of 2018, I interned on the mobile team at [Stripe](https://stripe.com), giving the [Stripe Dashboard](https://itunes.apple.com/us/app/stripe-dashboard/id978516833) a better Balances interface and fixing other small issues.
 
 ## Contact
 
