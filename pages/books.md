@@ -113,3 +113,6 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Disgrace - J.M. Coetzee
 - Juhaani Pallasmaa - The Eyes of the Skin
 
+# 2019
+
+- A Higher Loyalty: Truth, Lies, and Leadership - James Comey
