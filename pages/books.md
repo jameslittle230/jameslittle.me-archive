@@ -116,3 +116,4 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 # 2019
 
 - A Higher Loyalty: Truth, Lies, and Leadership - James Comey
+- Call Me By Your Name - André Aciman
