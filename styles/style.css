@@ -54,6 +54,17 @@ pre {
     line-height: 1.1;
 }
 
+.content-wrap--article p, .content-wrap--article pre, .content-wrap--article ul,
+.content-wrap--article ol, .content-wrap--article hr {
+	margin: 0 0 1.6em;
+}
+
+.content-wrap--article h1, .content-wrap--article h2, 
+.content-wrap--article h3, .content-wrap--article h4, 
+.content-wrap--article h5, .content-wrap--article h6 {
+	margin: 0 0 1.3em;
+}
+
 .content-wrap {
 	max-width: 800px;
 	width: 90%;
@@ -516,8 +527,13 @@ pre {
 
 .footnotes {
 	margin-top: 4rem;
+	padding-top: 1rem;
 	border-top: 1px solid #AAA;
 	font-size: 0.9em;
+}
+
+.footnotes li p {
+	margin-bottom: 1rem;
 }
 
 /**
