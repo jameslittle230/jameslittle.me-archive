@@ -38,22 +38,31 @@ figure {
 }
 
 code {
-	background: #DADADA;
+	font-family: "novel-mono-pro-condensed", monospace;
+	font-size: 0.8em;
+	color: rgb(9, 54, 55);
+	background: rgba(0, 0, 0, 0.12);
 	padding: 2px 4px;
-	border: 1px solid #999;
-	border-radius: 3px;
-	font-size: 0.9em;
-	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	margin: 0 2px;
+	border-radius: 4px;
 }
 
 pre {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 14px;
-    overflow-x: scroll;
-    padding: 8px;
-    line-height: 1.1;
+	font-family: "novel-mono-pro-condensed", monospace;
+	overflow: scroll;
+	max-height: 550px;
+    padding: 12px;
+	line-height: 1.5;
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+pre code {
+	background: none;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+}
 .content-wrap--article p, .content-wrap--article pre, .content-wrap--article ul,
 .content-wrap--article ol, .content-wrap--article hr {
 	margin: 0 0 1.6em;
