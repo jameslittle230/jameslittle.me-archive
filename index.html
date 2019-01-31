@@ -23,9 +23,7 @@ title: Home
 			<div class="home-post-list">
             {% for post in site.posts %}
                 <a class="home-article-preview" href="{{post.url}}">
-                    {% if post.img %}<figure class="article-img"><img src="/img/{{ post.img }}" alt="Image for {{ post.title}}"></figure>{% endif %}
-                    {% if post.title %}<h1 class="article-title">{{post.title}}</h1>{% endif %}
-                    {% if post.line %}<p class="article-line">{{post.line}}</p>{% endif %}
+                    {% if post.title %}<h1>{{post.title}}</h1>{% endif %}
                     <p class="article-meta">{{post.date | date: "%B %d, %Y"}}</p>
                 </a>
 
@@ -39,19 +37,19 @@ title: Home
         </div>
 
         <div class="home-section__column home-section__column--portfolio">
-            <a class="portfolio-object portfolio-object--orient" href="/portfolio/orient/">
+            <a class="portfolio-object" href="/portfolio/orient/" style="background-image: url('/img/home/orient/orient-square.png');">
                 <h1 class="portfolio-object__header">Bowdoin Orient Online</h1>
                 <p class="portfolio-object__description">A full WordPress reimplementation of bowdoinorient.com, complete with a bespoke theme that followed the conventions set forth by our new print redesign.</p>
             </a>
 
             <div class="portfolio-row">
-                <a class="portfolio-object portfolio-object--half portfolio-object--logger-app" href="/portfolio/logger">
+                <a class="portfolio-object portfolio-object--half" href="/portfolio/logger" style="background-image: url('/img/home/logger/logger-square.png');">
                     <h1 class="portfolio-object__header">Logger App</h1>
                     <p class="portfolio-object__description">An iOS app for Bowdoin's robotic soccer team that streams and saves video from Aldebaran Nao robots.<br>
                     <strong>Tools:</strong> Swift 3, Interface Builder, various iOS APIs</p>
                 </a>
 
-                <a class="portfolio-object portfolio-object--half portfolio-object--penguinegg" href="/portfolio/penguinegg">
+                <a class="portfolio-object portfolio-object--half" href="/portfolio/penguinegg" style="background-image: url('/img/home/penguinegg/penguinegg-square.png');">
                     <h1 class="portfolio-object__header">PenguinEgg</h1>
                     <p class="portfolio-object__description">A real-time, peer-to-peer encrypted chat application, as simple as Facebook Messenger.<br>
                     <strong>Tools:</strong> NodeJS, WebSockets, RSA, AES-CBC</p>

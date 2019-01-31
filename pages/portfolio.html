@@ -9,8 +9,8 @@ permalink: /portfolio/
 {% for post in items %}
 
 <div class="article-listing">
-    <a href="{{post.url}}"><h1 class="article-title">{{post.title}}</h1></a>
-    <p class="article-line">{{post.blurb}}</p>
+    <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
+    <p>{{post.blurb}}</p>
     <p class="article-meta">{{post.when}} {% if post.link != "" %}&bullet; <a href="{{post.link}}">{{post.link}}</a>{% endif %}</p>
 </div>
 
