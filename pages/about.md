@@ -5,9 +5,11 @@ subtitle: What I've been up to recently
 permalink: /about/
 ---
 
+<img src="/img/headshot.jpg" style="float: right; width: 40%; margin: 0 0 2em 2em; border: 1px solid #252525;">
+
 # Hi, I'm James!
 
-I'm a computer science major at [Bowdoin College](http://bowdoin.edu) in Brunswick, Maine. 
+I'm a computer science major at [Bowdoin College](http://bowdoin.edu) in Brunswick, Maine.
 
 **I'm interested in how people interact with technology, and I want to make interfacing with the digital world simpler and more intuitive through the software I create.**
 
@@ -17,13 +19,15 @@ I'm also the captain of the [Northern Bites](https://www.youtube.com/playlist?li
 
 In the summer of 2017, I worked with [Okta](https://okta.com) as a software engineering intern on their mobile development team. I added Touch ID sign-on to [Okta Mobile for iOS](https://itunes.apple.com/us/app/okta-mobile/id580709251) and carried out a major overhaul of the app's networking framework.
 
-In the summer of 2018, I interned on the mobile team at [Stripe](https://stripe.com), giving the [Stripe Dashboard](https://itunes.apple.com/us/app/stripe-dashboard/id978516833) a better Balances interface and fixing other small issues.
+In the summer of 2018, I interned on the mobile team at [Stripe](https://stripe.com), giving the [Stripe Dashboard iOS app](https://itunes.apple.com/us/app/stripe-dashboard/id978516833) a better Balances interface and fixing other small issues.
 
 ## Contact
 
 I'd love to get in touch. Shoot me an email at jameslittle230 (it's at gmail dot com). I'm also on various places on the internet:
 
-- [Twitter @jameslittle230](http://twitter.com/jameslittle230)
-- [Instagram @jameslittle230](http://instagram.com/jameslittle230)
-- [Github @jameslittle230](http://github.com/jameslittle230)
-- [LinkedIn @james-little-230](http://linkedin.com/in/james-little-230)
+- [Twitter @jameslittle230](https://twitter.com/jameslittle230)
+- [Instagram @jameslittle230](https://instagram.com/jameslittle230)
+- [Github @jameslittle230](https://github.com/jameslittle230)
+- [LinkedIn @james-little-230](https://linkedin.com/in/james-little-230)
+- [Hacker News @jil](https://news.ycombinator.com/user?id=jil)
+- [Lobste.rs @jil](https://lobste.rs/u/jil)

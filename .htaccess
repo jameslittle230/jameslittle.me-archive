@@ -6,3 +6,4 @@ RewriteRule ^(.*)$ http://jameslittle.me/$1 [L,R=301]
 
 # https://jekyllrb.com/docs/permalinks/#extensionless-permalinks
 Options +MultiViews
+Options -Indexes
