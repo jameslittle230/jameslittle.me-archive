@@ -121,3 +121,4 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Zen and the Art of Motorcycle Maintenance - Robert M. Pirsig
 - Theft by Finding: Diaries 1977-2002 - David Sedaris
 - Circe - Madeline Miller
+- Bad Blood - John Carreyrou
