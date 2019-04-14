@@ -122,3 +122,4 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Theft by Finding: Diaries 1977-2002 - David Sedaris
 - Circe - Madeline Miller
 - Bad Blood - John Carreyrou
+- Managing Humans - Michael Lopp
