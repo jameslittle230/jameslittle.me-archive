@@ -123,3 +123,4 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Circe - Madeline Miller
 - Bad Blood - John Carreyrou
 - Managing Humans - Michael Lopp
+- On Intelligence - Jeff Hawkins
