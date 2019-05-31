@@ -119,6 +119,18 @@ hr {
   margin: 0 0 1.3em;
 }
 
+.content--alert {
+  background: rgb(204, 216, 210);
+  padding: 1em;
+  border: 1px solid #222;
+  margin: 1.5em 0;
+  font-weight: bold;
+}
+
+.content--alert p:last-child {
+  margin-bottom: 0;
+}
+
 /**
  * Page Header
  */
