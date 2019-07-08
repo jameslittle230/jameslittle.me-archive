@@ -22,5 +22,3 @@ The application sports several security features. The server administrator never
 <img src="/img/portfolio/penguinegg/2.png" class="portfolio-image-right">
 
 The system is battle tested: as part of the final demonstration, we had to carry out cryptographic attacks on the system, and show that they can be detected or blocked. Users can initiate either a replay attack (sending the same bitstream from to a recipient twice) or a spoofing attack (encoding the sender as a different user than the actual sender). In both cases, the frontend application will detect these attacks, block them from sending, and let the recipient know that the attacks are taking place.
-
-Account creation is publicly available. If you want to chat with someone real-time, [contact me](/about) and I'll head online.

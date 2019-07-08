@@ -11,7 +11,7 @@ order: 3
 
 _A final project for Bowdoin's CSCI 2505: Mobile Computing course._
 
-<video src="/img/portfolio/logger/demo.mov" autoplay poster="2.png" class="portfolio-image-right"></video>
+<video src="/img/portfolio/logger/demo.mov" autoplay="autoplay" poster="2.png" class="portfolio-image-right"></video>
 
 Bowdoin's RoboCup team is a group of computer scientists who program humanoid robots to play soccer autonomously. We participate in international competitions, won one of them, and were finalists in several other years. The robots we use have two cameras on their head that allow them to see their surroundings: one points out towards the field, and another points down at their feet. With those camera images as their main source of input, they use advanced, homegrown computer vision algorithms to detect soccer balls, navigate the soccer field, and avoid running into other robots.
 
