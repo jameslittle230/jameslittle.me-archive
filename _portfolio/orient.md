@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio-page
 title: "Bowdoin Orient Online"
 blurb: "The Bowdoin Orient is Bowdoin's campus-run newspaper. I completely overhauled our website, making a bespoke WordPress theme following design conventions set forth by our print redesign."
 platform: "Web"

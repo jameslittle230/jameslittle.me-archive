@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio-page
 title: "PenguinEgg: Encrypted Chat"
 blurb: "A real-time peer-to-peer encrypted online chat. Built with the goal of being as easy to use as Facebook Messenger is and as secure as Facebook Messenger isn't."
 platform: "Web"

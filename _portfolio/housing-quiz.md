@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio-page
 title: "Bowdoin Housing Quiz"
 blurb: "An online quiz that uses interactive graphics to tell you where you can—and are likely to—live at Bowdoin next year."
 platform: "Web"
