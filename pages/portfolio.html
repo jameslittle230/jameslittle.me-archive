@@ -11,14 +11,13 @@ permalink: /portfolio/
 <div class="article-listing">
     <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
     <p>{{post.blurb}}</p>
-    <p class="article-meta">{{post.when}} {% if post.link != "" %}&bullet; <a href="{{post.link}}">{{post.link}}</a>{% endif %}</p>
+    <p class="article-meta">{{post.when}}
+        {% if post.link != "" %}
+            &bullet; <a href="{{post.link}}">{{post.link}}</a>
+        {% else %}
+            &bullet; <i>No longer online</i>
+        {% endif %}
+    </p>
 </div>
 
 {% endfor %}
-
-<h1>Work in Progress</h1>
-
-<ul>
-	<li><strong>Swoop: </strong>A blog engine built with Kitura, a server-side web framework written in Swift.</li>
-	<li><strong>Crossed: </strong>A web app to help build professional-grade crossword puzzles.</li>
-</ul>
