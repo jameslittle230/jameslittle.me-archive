@@ -4,7 +4,7 @@ title: "Bowdoin Orient Online"
 blurb: "The Bowdoin Orient is Bowdoin's campus-run newspaper. I completely overhauled our website, making a bespoke WordPress theme following design conventions set forth by our print redesign."
 platform: "Web"
 work: "Design and implementation"
-link: "http://bowdoinorient.com"
+link: "https://bowdoinorient.com"
 when: "2017"
 order: 4
 ---

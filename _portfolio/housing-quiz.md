@@ -4,7 +4,7 @@ title: "Bowdoin Housing Quiz"
 blurb: "An online quiz that uses interactive graphics to tell you where you can—and are likely to—live at Bowdoin next year."
 platform: "Web"
 work: "Design and implementation"
-link: "http://bowdoinorient.com/housing"
+link: "https://bowdoinorient.com/housing"
 when: "Spring 2017"
 order: 2
 ---
