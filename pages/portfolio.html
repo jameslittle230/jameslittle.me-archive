@@ -12,7 +12,7 @@ permalink: /portfolio/
     <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
     <p>{{post.blurb}}</p>
     <p class="article-meta">{{post.when}}
-        {% if post.link != "" %}
+        {% if post.link and post.link != "" %}
             &bullet; <a href="{{post.link}}">{{post.link}}</a>
         {% else %}
             &bullet; <i>No longer online</i>

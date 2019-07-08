@@ -4,7 +4,6 @@ title: "RoboCup Logger App"
 blurb: "This app connects to an Aldebaran Nao robot and streams data from the robots' two cameras to an iPhone. The app decodes bitmap data to save and display the camera's view in real-time."
 platform: "iOS"
 work: "Design and implementation"
-link: ""
 when: "2016"
 order: 3
 ---
