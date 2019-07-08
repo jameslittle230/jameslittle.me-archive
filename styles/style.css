@@ -466,12 +466,8 @@ hr {
 }
 
 /**
- * Blog Entry Page
+ * Article List
  */
-.date {
-  font-size: 0.8em;
-  color: hsla(0, 0%, 90%, 0.8);
-}
 
 .article-listing {
   display: block;
@@ -479,6 +475,11 @@ hr {
   margin-bottom: 0.5em;
   border-bottom: 1px solid #aaa;
   color: #222;
+}
+
+.article-listing--blog-page {
+  padding: 3em 0;
+  border-bottom: 1px solid #222;
 }
 
 .article-listing:first-child {
@@ -495,7 +496,7 @@ hr {
 
 .article-listing h1 {
   line-height: 1;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .article-listing a {
@@ -503,8 +504,15 @@ hr {
 }
 
 .article-listing .article-meta {
-  color: #555;
-  font-size: 0.8em;
+  /* color: #555; */
+  /* font-size: 0.8em; */
+}
+
+.article-listing .excerpt {
+  padding: 2em;
+  font-size: 0.9em;
+  border-left: 1px solid #ccc;
+  background: hsla(0, 0%, 0%, 0.05);
 }
 
 /* - For when I have images in article listings

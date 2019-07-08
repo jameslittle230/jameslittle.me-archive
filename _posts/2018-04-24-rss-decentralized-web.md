@@ -7,6 +7,8 @@ date:   2018-04-24
 
 But the web today is not set up for an RSS revival. RSS itself is an imperfect technology that can be abused by publishers and was abandoned by readers for good reasons. The central problem RSS hopes to solve—over-curation of news—certainly still exists, but RSS is not the right technology to solve it.
 
+<!--more-->
+
 ## Limits of RSS guarantee a poor reading experience
 Publishers have complete control over what goes in their RSS feed, which degrades the usefulness of RSS aggregations and brings about a confusing, dissonant, and inelegant user experience. Without any standardization, users spend more time parsing headlines and clicking on links to seek out what they want to read.
 

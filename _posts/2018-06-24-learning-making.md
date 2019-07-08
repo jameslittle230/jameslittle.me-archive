@@ -15,6 +15,8 @@ This project had become solely devoted to my own learning: I wasn't building a c
 My having fallen into this hole wasn't necessarily a bad thing; in fact, there are benefits to experimenting with unknown technologies using a known problem domain. 
 The question, therefore, becomes: _which project ideas are better suited as vehicles for learning, and which are better suited for working to completion?_ 
 
+<!--more-->
+
 I’ve found that the best tech playgrounds — these venues for experimenting with new tools, concepts, and techniques — are exciting projects with limited (but flexible) scope, that come from ideas you haven’t put any stake in. 
 In other words, productive programming involves separating the learning from the making as much as possible.
 

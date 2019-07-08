@@ -33,6 +33,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path
+excerpt_separator: <!--more-->
 defaults:
   -
     scope:

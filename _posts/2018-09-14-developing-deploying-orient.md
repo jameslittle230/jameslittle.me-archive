@@ -18,6 +18,8 @@ using the best best practices I know of. Furthermore, I wrote it in Ruby to
 familiarize myself with the language used most often at
 [Stripe](https://stripe.com), where I interned this past summer.
 
+<!--more-->
+
 ## The problem
 
 WordPress makes it notoriously hard to set up staging environments. There’s

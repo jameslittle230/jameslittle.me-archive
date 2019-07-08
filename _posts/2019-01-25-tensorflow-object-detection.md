@@ -6,6 +6,8 @@ popular: true
 
 I’ve been working on image object detection for [my senior thesis](https://honors.jameslittle.me/) at [Bowdoin](https://www.bowdoin.edu/computer-science/index.html) and have been unable to find a tutorial that describes, at a low enough level (i.e. with code samples), how to set up the [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and train a model with a custom dataset. This aims to be that tutorial: the one I wish I could have found three months ago.
 
+<!--more-->
+
 ## Background
 
 I don’t know much about advanced Machine Learning concepts, and I know even less about Tensorflow. If you’re like me, you’ve heard of Tensorflow as the best Machine Learning framework available today[^1], and you want to use it for a very specific use case (in my case, object detection). You also don’t want to spend months studying what seem to be Tensorflow-specific vocabulary and concepts.
