@@ -1,9 +1,11 @@
 ---
-layout: main
+layout: root
 ---
-<!-- page.html layout -->
+
 {% include header.html %}
 
-{{ content }}
+<main class="{{page.layout}}">
+    {{ content }}
+</main>
 
 {% include footer.html %}
