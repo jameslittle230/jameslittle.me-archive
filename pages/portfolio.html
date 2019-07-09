@@ -9,7 +9,7 @@ permalink: /portfolio/
 {% for post in items %}
 
 <div class="article-listing">
-    <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
+    <a href="{{post.url}}"><h2>{{post.title}}</h2></a>
     <p>{{post.blurb}}</p>
     <p class="article-meta">{{post.when}}
         {% if post.link and post.link != "" %}
@@ -21,3 +21,13 @@ permalink: /portfolio/
 </div>
 
 {% endfor %}
+
+<h1>Other projects</h1>
+<p><small>(that didn't deserve a whole writeup)</small></p>
+
+<ul>
+    <li><a href="https://rothrotterlaster.com">A website for a pediatric practice in Brookline, MA, built with Gatsby</a> (Summer 2019)</li>
+    <li><a href="https://directory.jameslittle.me">A Bowdoin Directory with live search and more information displayed</a> (Fall 2018)</li>
+    <li><a href="https://files.jameslittle.me/projects/ait-graphics-final/index.html">A Marble Blast Gold clone built with WebGL</a> (Spring 2018)</li>
+    <li><a href="https://github.com/jameslittle230/shortlink">A link shortening service that writes to a file instead of using a database</a> (Spring 2018)</li>
+</ul>
