@@ -661,11 +661,21 @@ hr {
 
 .portfolio-image {
   border: 1px solid black;
+  background-color: white;
   margin: 2em 0;
   clear: both;
 
   max-width: 150%;
   margin-left: -25%;
+  box-shadow: 0 0 40px hsla(0, 0%, 0%, 0.6);
+}
+
+.portfolio-image-small {
+  border: 1px solid black;
+  background-color: white;
+  margin: 2em 0;
+  clear: both;
+
   box-shadow: 0 0 40px hsla(0, 0%, 0%, 0.6);
 }
 
@@ -707,12 +717,13 @@ hr {
     font-size: 1.25em;
 
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
 
   .portfolio-stats .stat {
-    margin-left: 1em;
+    display: block;
+    margin-bottom: 0.5em;
   }
   
   .portfolio-stats .item {
@@ -776,6 +787,6 @@ hr {
 
 @media screen and (max-width: 400px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
