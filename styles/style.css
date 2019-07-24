@@ -289,14 +289,17 @@ hr {
 }
 
 .home-article-preview .article-meta {
-  color: #555;
-  font-size: 0.8em;
+  color: hsl(0, 0%, 0%, 0.7);
+  font-size: 0.9em;
+  margin: 0.6em 0;
 }
 
 .home-section__column--posts .more-link {
   display: block;
   margin-top: 1em;
-  color: #555;
+  color: hsl(0, 0%, 0%, 0.5);
+  font-weight: bold;
+  font-size: 1.4em;
 }
 
 .home-section__column--posts .more-link:after {
@@ -505,8 +508,9 @@ hr {
 }
 
 .article-listing .article-meta {
-  /* color: #555; */
-  /* font-size: 0.8em; */
+  color: #555;
+  font-size: 0.9em;
+  margin: 0.2em 0 1.5em;
 }
 
 .article-listing .excerpt {
