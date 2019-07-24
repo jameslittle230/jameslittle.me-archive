@@ -31,3 +31,7 @@ I'd love to get in touch. Shoot me an email at jameslittle230 (it's at gmail dot
 - [LinkedIn @james-little-230](https://linkedin.com/in/james-little-230)
 - [Hacker News @jil](https://news.ycombinator.com/user?id=jil)
 - [Lobste.rs @jil](https://lobste.rs/u/jil)
+
+## Colophon
+
+This site is built using Jekyll and (mostly) coded by hand. It's hosted on Netlify and the source code can be found [on Github](https://github.com/jameslittle230/jameslittle.me). The fonts are currently [Freight Sans](https://fonts.adobe.com/fonts/freight-sans), [Freight Display](https://fonts.adobe.com/fonts/freight), and [Novel Mono](https://fonts.adobe.com/fonts/novel-mono), but that's subject to change when my Adobe subscription lapses.
