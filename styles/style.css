@@ -566,6 +566,32 @@ hr {
   margin-bottom: 1rem;
 }
 
+.article-image--right {
+  width: 70%;
+  float: right;
+  margin: 0em -8em 1em 1em;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  line-height: 1.2
+}
+
+blockquote {
+  background: hsla(0, 0%, 0%, 0.05);
+  margin: 0;
+  padding: 1em;
+  border-left: 3px solid hsla(0, 0%, 0%, 0.6);
+  margin-bottom: 1.6rem;
+  font-size: 0.9em;
+}
+
+blockquote > *:last-child {
+  margin-bottom: 0;
+}
+
 /**
  * Portfolio Page
  */
