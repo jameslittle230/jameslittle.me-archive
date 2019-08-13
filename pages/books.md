@@ -124,4 +124,5 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Bad Blood - John Carreyrou
 - Managing Humans - Michael Lopp
 - On Intelligence - Jeff Hawkins
-- The Weight of Ink - Rachel Kaddish
+- The Weight of Ink - Rachel Kadish
+- Sapiens - Yuval Noah Harari
