@@ -8,12 +8,15 @@
 }
 
 ::selection {
-  background: #2e2e66; /* WebKit/Blink Browsers */
+  background: #2e2e66;
+  /* WebKit/Blink Browsers */
   color: #eee;
   text-shadow: none;
 }
+
 ::-moz-selection {
-  background: #2e2e66; /* Gecko Browsers */
+  background: #2e2e66;
+  /* Gecko Browsers */
   color: #eee;
   text-shadow: none;
 }
@@ -395,13 +398,13 @@ hr {
 }
 
 .portfolio-object__header {
-  background: linear-gradient(to bottom, 
-    rgba(25, 25, 25, 0.7) 0%, 
-    rgba(25, 25, 25, 0.665) 20%,
-    rgba(25, 25, 25, 0.518) 40%,
-    rgba(25, 25, 25, 0.266) 60%,
-    rgba(25, 25, 25, 0.084) 80%, 
-    rgba(25, 25, 25, 0) 100% );
+  background: linear-gradient(to bottom,
+      rgba(25, 25, 25, 0.7) 0%,
+      rgba(25, 25, 25, 0.665) 20%,
+      rgba(25, 25, 25, 0.518) 40%,
+      rgba(25, 25, 25, 0.266) 60%,
+      rgba(25, 25, 25, 0.084) 80%,
+      rgba(25, 25, 25, 0) 100%);
   padding: 0.5em 0.5em 3.5em;
   margin-bottom: 1em;
   text-shadow: 2px 2px 0 #000;
@@ -572,6 +575,21 @@ hr {
   margin: 0em -8em 1em 1em;
 }
 
+@media screen and (max-width: 1048px) {
+  .article-image--right {
+    margin-right: 0;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .article-image--right {
+    float: none;
+    margin: 1.5em 0;
+    width: 100%;
+  }
+}
+
 figcaption {
   text-align: center;
   font-size: 0.8em;
@@ -588,7 +606,7 @@ blockquote {
   font-size: 0.9em;
 }
 
-blockquote > *:last-child {
+blockquote>*:last-child {
   margin-bottom: 0;
 }
 
@@ -600,11 +618,9 @@ blockquote > *:last-child {
   width: 100%;
   text-align: center;
   padding: 15vh calc((100% - 1024px) / 2) 80vh;
-  background: radial-gradient(
-    farthest-side circle at top,
-    #43c6ac,
-    #1f334f
-  );
+  background: radial-gradient(farthest-side circle at top,
+      #43c6ac,
+      #1f334f);
   color: rgba(255, 255, 255, 0.85);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 
@@ -670,7 +686,7 @@ blockquote > *:last-child {
   margin-bottom: 3em;
 }
 
-.portfolio-page + .page-footer {
+.portfolio-page+.page-footer {
   margin: 0;
 }
 
@@ -724,7 +740,7 @@ blockquote > *:last-child {
     width: 100%;
     margin-left: 0;
   }
-  
+
   .portfolio-image-right {
     margin-right: 0;
     margin-bottom: 1em;
@@ -755,11 +771,11 @@ blockquote > *:last-child {
     display: block;
     margin-bottom: 0.5em;
   }
-  
+
   .portfolio-stats .item {
     display: block;
   }
-  
+
   .portfolio-stats .item:not(:last-child):after {
     content: "";
     padding: 0;
