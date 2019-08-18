@@ -573,6 +573,8 @@ hr {
   width: 70%;
   float: right;
   margin: 0em -8em 1em 1em;
+  background: #eee;
+  padding: 1em;
 }
 
 @media screen and (max-width: 1048px) {
