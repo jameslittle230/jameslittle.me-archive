@@ -7,6 +7,8 @@ I've been thinking ([and writing](/blog/2019/cors-1)) about CORS recently becaus
 
 I thought the fix would be fairly easy but a quick diagnostic showed that it's a little more complicated. I'm not sure what the fix is, but I'm going to try to outline my thought process while fixing it to give a sense of how I think about debugging.
 
+<!--more-->
+
 - Is this really even a problem? The site looks fine to me—the fonts are showing up fine.
 - My computer has the Orient fonts downloaded locally, so maybe the browser is finding the fonts there. I should check on a different computer.
 - I checked on my girlfriend's computer. The CORS errors are still showing up in her browser's console, but the fonts look pretty much fine, except for one: Chronicle, font weight 700, not italic.
