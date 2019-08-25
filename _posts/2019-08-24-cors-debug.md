@@ -67,6 +67,8 @@ I thought the fix would be fairly easy but a quick diagnostic showed that it's a
 - Nice. So CORS is set up properly.
 - When I use a `Referer` header instead of an `Origin` header in the request above, it still works. So something in the full request is causing the CORS headers to drop.
 - I sequentially added each header in a new CURL request. It wasn't any of the headers, it was the `--compressed` flag.
+- I looked up what the `--compressed` flag does for CURL:
+  > **`--compressed`** (HTTP) Request a compressed response using one of the algorithms curl supports, and save the uncompressed document. If this option is used and the server sends an unsupported encoding, curl will report an error.
 - I thought my S3 configuration was wrong, but maybe it's my Cloudfront configuration; maybe Cloudfront, in compressing the files, is removing the CORS headers that S3 is providing.
 - I found a [documentation page about Cloudfront and CORS](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/header-caching.html#header-caching-web-cors). I whitelisted four headers in my Cloudfront Default Cache Behavior Settings:
   - `Access-Control-Request-Headers`
@@ -74,11 +76,18 @@ I thought the fix would be fairly easy but a quick diagnostic showed that it's a
   - `Origin`
   - `Referer`
 - Now none of my CURL requests are giving me any CORS headers in the response; even the ones that used to work
-- But the CORS error is gone from Firefox now.
+- But the CORS error is gone from Firefox now.[^2]
 - And from Chrome.
 - After clearing the browser cache, the page looks fine on my girlfriend's computer. I think I fixed this.
 - I wonder if I need to clear the Cloudfront cache or add a cachebusting query onto the `<link>` tag.
 - The end.
 
+> Update from the next day: It looks like my `orient-fonts.css` file is being requested twice: once from the `<link>` tag and once as an XHR request so that [EQCSS](https://elementqueries.com/) can analyze the stylesheets and render the element queries properly. It's those link tag requests that have the CORS headers, but the XHR requests do not.
+
+If I had any takeaways, they would have to be that debugging these kinds of issues (especially on systems you don't know well) can be tricky, and it helps to have knowledge of the invariants of the system. In this case, I had done my background research on CORS errors so I knew what the ultimate solution would look like: there were response headers that weren't showing up when I expected them to. I also knew that because *some* CURL queries responded with the correct CORS headers, there was a problem with some configuration between S3 and the browser: one of the layers working in there was stripping away the response headers I wanted. I was then able to examine each layer to 
+
+I hope to write this kind of blog post again in the future. Deep-diving and solving these types of problems is an intrinsic part of software development, and I like having insight into the thought processes I go through in order to fix a bug. Hopefully if I do this again I can have points of reference for my problem-solving thought process to see how this skill changes over time.
 
 [^1]: My goodness this page was a slog to find. And it's not even that helpful.
+
+[^2]: This was the most confusing part of debugging. Why does it work in the browser but the proper headers don't show up in CURL?
