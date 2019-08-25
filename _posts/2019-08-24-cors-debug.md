@@ -5,7 +5,7 @@ date:   2019-08-24
 
 I've been thinking ([and writing](/blog/2019/cors-1)) about CORS recently because there's a CORS error on the Bowdoin Orient's site. The stylesheets for loading the Orient's fonts are coming up with a CORS error in the Firefox console, while the Chrome console shows CORS errors for both the stylesheet and the font files.
 
-I thought the fix would be fairly easy but a quick diagnostic showed that it's a little more complicated. I'm not sure what the fix is, but I'm going to try to outline my thought process while fixing it to give a sense of how I think about debugging.
+I thought the solution would be fairly easy, but a quick diagnostic showed that it's a little more complicated than originally expected. As I write this, I'm not sure what needs to be changed to fix the issue, but I'm going to try to outline my thought process while I debug it.
 
 <!--more-->
 
@@ -86,10 +86,14 @@ I thought the fix would be fairly easy but a quick diagnostic showed that it's a
 
 > Update from the next day: It looks like my `orient-fonts.css` file is being requested twice: once from the `<link>` tag and once as an XHR request so that [EQCSS](https://elementqueries.com/) can analyze the stylesheets and render the element queries properly. It's those link tag requests that have the CORS headers, but the XHR requests do not.
 
-If I had any takeaways, they would have to be that debugging these kinds of issues (especially on systems you don't know well) can be tricky, and it helps to have knowledge of the invariants of the system. In this case, I had done my background research on CORS errors so I knew what the ultimate solution would look like: there were response headers that weren't showing up when I expected them to. I also knew that because *some* CURL queries responded with the correct CORS headers, there was a problem with some configuration between S3 and the browser: one of the layers working in there was stripping away the response headers I wanted. I was then able to examine each layer to 
+If I had any takeaways, they would have to be that debugging these kinds of issues (especially on systems you don't know well) can be tricky, and it helps to have knowledge of the invariants of the system. In this case, I had done my background research on CORS errors so I knew what the ultimate solution would look like: there were response headers that weren't showing up when I expected them to. I also knew that because *some* CURL queries responded with the correct CORS headers, there was a problem with some configuration between S3 and the browser: one of the layers working in there was stripping away the response headers I wanted. I was then able to examine each layer to narrow down where the problem lies, then read the documentation specific to that layer (thank goodness that documentation exists) to configure the CDN correctly.
+
+This was an interesting case study since it's in an unfamiliar area (HTTP responses and CDN configuration) of a very familiar field (web development). Most of the time when I come across these confusing types of issues I look through Stack Overflow and add the few lines of code that solves it.[^3] This CORS issue had come up enough times that I decided that I wanted to have a greater understanding of what's going on and what needed to be fixed.
 
 I hope to write this kind of blog post again in the future. Deep-diving and solving these types of problems is an intrinsic part of software development, and I like having insight into the thought processes I go through in order to fix a bug. Hopefully if I do this again I can have points of reference for my problem-solving thought process to see how this skill changes over time.
 
 [^1]: My goodness this page was a slog to find. And it's not even that helpful.
 
 [^2]: This was the most confusing part of debugging. Why does it work in the browser but the proper headers don't show up in CURL?
+
+[^3]: This is a skill in itself: knowing which Stack Overflow solution fits the problem domain and understanding where the lines of code need to go. In those situations, I feel like SO is standing in for good documentation, in that I couldn't figure out through documentation alone why an issue was taking place and what code I needed to write in order to solve it.
