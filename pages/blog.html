@@ -6,15 +6,21 @@ permalink: /blog/
 ---
 
 {% for post in site.posts %}
-	<div class="article-listing article-listing--blog-page">
-		{% if post.title %}<a href="{{post.url}}"><h1>{{post.title}}</h1></a>{% endif %}
-		<p class="article-meta">{{post.date | date: "%B %d, %Y"}}</p>
+<div class="article-listing article-listing--blog-page">
+	{% if post.title %}<a href="{{post.url}}">
+		<h1>{{post.title}}</h1>
+	</a>{% endif %}
+	<p class="article-meta">{{post.date | date: "%B %d, %Y"}}</p>
 
-		{% if post.summary %}
-			<p>{{post.summary}}</p>
-		{% else %}
-			<div class="excerpt">{{post.excerpt}}</div>
-			<p><a href="{{post.url}}"><h3>Read more &rarr;</h3></a></p>
-		{% endif %}
-	</div>
+	{% if post.summary %}
+	<p>{{post.summary}}</p>
+	{% else %}
+	<div class="excerpt">{{post.excerpt}}</div>
+	<p><a href="{{post.url}}">
+			<h3>Read more &rarr;</h3>
+		</a></p>
+	{% endif %}
+</div>
 {% endfor %}
+
+<p><a href="/feed.xml">You can subscribe to this blog's RSS feed, if you're into that.</a></p>
