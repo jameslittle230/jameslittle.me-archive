@@ -1,54 +1,55 @@
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>{{ page.title }} - jameslittle.me</title>
 
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
 
-    <link rel="stylesheet" href="https://use.typekit.net/uch6luf.css">
-    <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/pygments.css">
-    <link rel="stylesheet" href="/styles/barefoot.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/uch6luf.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/pygments.css" />
+    <link rel="stylesheet" href="/styles/barefoot.min.css" />
 
-    <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="RSS">
-</head>
+    <link
+      rel="alternate"
+      href="/feed.xml"
+      type="application/rss+xml"
+      title="RSS"
+    />
+  </head>
 
-<body>
+  <body>
     {{ content }}
-</body>
+  </body>
 
-<!-- Matomo -->
-<script type="text/javascript">
+  <!-- Matomo -->
+  <script type="text/javascript">
     var _paq = _paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function () {
-        var u = "//analytics.jameslittle.me/";
-        _paq.push(['setTrackerUrl', u + 'piwik.php']);
-        _paq.push(['setSiteId', '2']);
-        var d = document,
-            g = d.createElement('script'),
-            s = d.getElementsByTagName('script')[0];
-        g.type = 'text/javascript';
-        g.async = true;
-        g.defer = true;
-        g.src = u + 'piwik.js';
-        s.parentNode.insertBefore(g, s);
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function() {
+      var u = "//analytics.jameslittle.me/";
+      _paq.push(["setTrackerUrl", u + "piwik.php"]);
+      _paq.push(["setSiteId", "2"]);
+      var d = document,
+        g = d.createElement("script"),
+        s = d.getElementsByTagName("script")[0];
+      g.type = "text/javascript";
+      g.async = true;
+      g.defer = true;
+      g.src = u + "piwik.js";
+      s.parentNode.insertBefore(g, s);
     })();
-</script>
-<!-- End Matomo Code -->
+  </script>
+  <!-- End Matomo Code -->
 
-<script src="/scripts/barefoot.min.js"></script>
-<script>
+  <script src="/scripts/barefoot.min.js"></script>
+  <script>
     lf = new BareFoot();
     lf.init();
-</script>
-
+  </script>
 </html>

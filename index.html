@@ -3,58 +3,32 @@ layout: base
 title: Home
 ---
 
-<header class="page-header page-header--home">
-    <div class="header-text">
-        <h1>Hi! I'm James&nbsp;Little.</h1>
-        <p class="big-description">I'm a full-stack software engineer who just moved to San&nbsp;Francisco.</p>
-        <p class="links"><a href="https://github.com/jameslittle230">Github</a> &bullet; <a href="https://www.linkedin.com/in/james-little-230">LinkedIn</a> &bullet; <a href="https://twitter.com/jameslittle230">Twitter</a> &bullet; <a href="https://www.instagram.com/jameslittle230/">Instagram</a> &bullet; <a href="http://files.jameslittle.me/resume/JamesLittleFall2018.pdf">Résumé</a></p>
-    </div>
-
-    <div class="image-of-me">
-        <img src="/img/me.png" alt="">
-    </div>
-</header>
-
-<div class="home-section">
-    <header class="home-section__header"><h1>Latest Stuff</h1></header>
-
-    <div class="home-section__row">
-        <div class="home-section__column home-section__column--posts">
-			<div class="home-post-list">
-            {% for post in site.posts %}
-                <a class="home-article-preview" href="{{post.url}}">
-                    {% if post.title %}<h1>{{post.title}}</h1>{% endif %}
-                    <p class="article-meta">{{post.date | date: "%B %d, %Y"}}</p>
-                </a>
-
-                {% if forloop.index == 5 %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-			</div>
-
-            <a class="more-link" href="/blog">{{site.posts.size}} posts since March 2018</a>
-        </div>
-
-        <div class="home-section__column home-section__column--portfolio">
-            <a class="portfolio-object" href="/portfolio/orient/" style="background-image: url('/img/home/orient/orient-square.png');">
-                <h1 class="portfolio-object__header">Bowdoin Orient Online</h1>
-                <p class="portfolio-object__description">A full WordPress reimplementation of bowdoinorient.com, complete with a bespoke theme that followed the conventions set forth by our new print redesign.</p>
-            </a>
-
-            <div class="portfolio-row">
-                <a class="portfolio-object portfolio-object--half" href="/portfolio/logger" style="background-image: url('/img/home/logger/logger-square.png');">
-                    <h1 class="portfolio-object__header">Logger App</h1>
-                    <p class="portfolio-object__description">An iOS app for Bowdoin's robotic soccer team that streams and saves video from Aldebaran Nao robots.<br>
-                    <strong>Tools:</strong> Swift 3, Interface Builder, various iOS APIs</p>
-                </a>
-
-                <a class="portfolio-object portfolio-object--half" href="/portfolio/penguinegg" style="background-image: url('/img/home/penguinegg/penguinegg-square.png');">
-                    <h1 class="portfolio-object__header">PenguinEgg</h1>
-                    <p class="portfolio-object__description">A real-time, peer-to-peer encrypted chat application, as simple as Facebook Messenger.<br>
-                    <strong>Tools:</strong> NodeJS, WebSockets, RSA, AES-CBC</p>
-                </a>
-            </div>
-        </div>
-    </div>
+<link rel="stylesheet" href="/styles/home.css" />
+<div class="home-header-container">
+  <div class="home-header-headshot-container">
+    <img src="/img/headshot.jpg" />
+  </div>
+  <div class="home-header-text">
+    <h1>Hi, I'm James.</h1>
+    <p class="home-header-text--large">
+      I'm an iOS and web developer and designer in San Francisco, Calif.
+    </p>
+    <p class="home-header-text--large">
+      I'm currently working on Terminal, at Stripe.
+    </p>
+    <p>
+      I started there after graduating from Bowdoin College in Brunswick, Maine,
+      where I majored in Computer Science, worked as the Digital Director for
+      the student newspaper, and played with robots.
+    </p>
+    <p class="links">
+      <a href="https://github.com/jameslittle230">Github</a> •
+      <a href="https://linkedin.com/in/james-little-230">LinkedIn</a> •
+      <a href="https://twitter.com/jameslittle230">Twitter</a> •
+      <a href="https://instagram.com/jameslittle230">Instagram</a> •
+      <a href="https://files.jameslittle.me/resume/JamesLittleFall2018.pdf"
+        >Résumé</a
+      >
+    </p>
+  </div>
 </div>

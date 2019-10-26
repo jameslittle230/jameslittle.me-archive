@@ -7,7 +7,7 @@ permalink: /about/
 
 <img src="/img/headshot.jpg" style="float: right; width: 40%; margin: 0 0 2em 2em; border: 1px solid #252525;">
 
-# Hi, I'm James!
+<h1 style="margin-top: 0">Hi, I'm James!</h1>
 
 I'm a software developer living in San Francisco and currently working at [Stripe](https://stripe.com) on [Terminal](https://stripe.com/terminal).
 
@@ -19,7 +19,7 @@ I was also the captain of the [Northern Bites](https://www.youtube.com/playlist?
 
 In the summer of 2017, I worked with [Okta](https://okta.com) as a software engineering intern on their mobile development team. I added Touch ID sign-on to [Okta Mobile for iOS](https://itunes.apple.com/us/app/okta-mobile/id580709251) and carried out a major overhaul of the app's networking framework.
 
-In the summer of 2018, I interned on the mobile team at Stripe, giving the [Stripe Dashboard iOS app](https://itunes.apple.com/us/app/stripe-dashboard/id978516833) a better Balances interface and fixing other small issues.
+In the summer of 2018, I interned on the mobile team at Stripe, giving the [Stripe Dashboard iOS app](https://itunes.apple.com/us/app/stripe-dashboard/id978516833) a better Balances interface and fixing other small issues. They liked me and I liked them (a lot), so [I went back](/blog/2019/next) full-time the following year.
 
 ## Contact
 
