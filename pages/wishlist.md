@@ -18,3 +18,4 @@ permalink: /wishlist/
 - New pillows for our bed
 - Floor lamp
 - Some sort of coffee table book about design or architecture or San Francisco or something
+- Smart-home stuff! I've been using LifX lightbulbs, which are good. I'm also in the market for a smart switch or some IP cameras or something. My only guideline is that they work with Homekit or Homebridge -- maybe check with me first if you're not sure.
