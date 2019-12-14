@@ -21,6 +21,7 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - The Weight of Ink - Rachel Kadish
 - Sapiens - Yuval Noah Harari
 - The Year of Magical Thinking - Joan Didion
+- White Teeth - Zadie Smith
 
 # 2018
 
