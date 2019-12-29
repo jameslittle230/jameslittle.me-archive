@@ -22,6 +22,7 @@ In January of 2014, inspired by [Jamie Todd Rubin](http://www.jamierubin.net), I
 - Sapiens - Yuval Noah Harari
 - The Year of Magical Thinking - Joan Didion
 - White Teeth - Zadie Smith
+- Cherry - Nico Walker
 
 # 2018
 
