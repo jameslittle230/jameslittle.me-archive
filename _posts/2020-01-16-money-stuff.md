@@ -60,5 +60,5 @@ More Resources:
 - [The Reddit Personal Finance Flowchart](https://i.imgur.com/lSoUQr2.png)
 - [A Twitter thread outlining a still-very-basic but also more-complex Vanguard index fund guide](https://twitter.com/bdc/status/1204468710645235713)
 
-[^1]: https://media.bac-assets.com/DigitalDeposit_CA_CA_Bay_Area.pdf
-[^2]: https://www.salliemae.com/banking/certificates-of-deposit/
+[^1]: Source: <https://media.bac-assets.com/DigitalDeposit_CA_CA_Bay_Area.pdf>
+[^2]: Source: <https://www.salliemae.com/banking/certificates-of-deposit/>
